@@ -10,6 +10,5 @@ import lombok.Data;
 @Data
 public class KafkaProperties {
     private String bootstrapServers;
-    private String clientId;
     private Integer producerRetries;
 }
