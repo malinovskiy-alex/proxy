@@ -1,0 +1,7 @@
+logging:
+    level:
+        root: ${ROOT_LOG_LEVEL:INFO}
+spring:
+    kafka:
+        bootstrap-servers: ${KAFKA_BOOTSTRAP_URL:localhost:9092}
+        producer-retries: ${KAFKA_PRODUCER_RETRIES:2}
